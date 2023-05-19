@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header {
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
+        .grid_container{
+            display: grid;
+            grid-template-columns: 30 auto auto;
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
+            background-color:blanchedalmond;
+            gap: 5px;
+            padding: 3px;
+        }
+        .grid_item{
+            background-color: aqua;
+            border: 1px solid #ccc;
+            font-size: 50px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            line-height: 100px;
+            border-radius: 15px;
+        }
+        .item1{
+            grid-row-start: 1;
+            grid-row-end: 2;
+            grid-column-start: 1;
+            grid-column-end: 2;
+        }
+        .item2{
+            grid-row-start: 1;
+            grid-row-end: 3;
+            grid-column-start: 2;
+            grid-column-end: 4;
+        }
+        .item3{
+            grid-row-start: 2;
+            grid-row-end: 5;
+            grid-column-start: 1;
+            grid-column-end: 2;
+        }
+        .item8{
+            grid-row-start: 5;
+            grid-row-end: 6;
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>
+            EJERCICIO GRID-CSS
+        </h1>
+    </header>
+    <div class="grid_container">
+        <div class="grid_item item1">1</div>
+        <div class="grid_item item2">2</div>
+        <div class="grid_item item3">3</div>
+        <div class="grid_item item4">4</div>
+        <div class="grid_item item5">5</div>
+        <div class="grid_item item6">6</div>
+        <div class="grid_item item7">7</div>
+        <div class="grid_item item8">8</div>
+        <div class="grid_item item2">2</div>
+        <div class="grid_item item1">
+            
+    </div>
+</body>
+</html>

@@ -1,0 +1,62 @@
+body{
+    background-color: blanchedalmond;
+}
+.esponja{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#noche, #tarde {
+    visibility: hidden;
+    display:none;
+    
+}
+img{
+    border-radius: 50%;
+    width: auto;
+    height: auto;
+}
+@media only screen and (max-width: 900px){
+    body{
+        background-color: rgb(255, 136, 127);
+    }
+    img{
+        border-radius: 50%;
+        width: 500px;
+        height: auto;
+    }
+    #dia,#noche {
+        visibility: hidden;
+        display:none;
+        
+    }
+    #tarde {
+        visibility: visible;
+        display:flex;
+        
+    }
+}
+@media only screen and (max-width: 600px){
+    body{
+        background-color: tomato;
+        }
+    img{
+        border-radius: 50%;
+        width: 300px;
+    }
+    #tarde,#noche {
+        visibility: hidden;
+        display:none;
+        
+    }
+    #noche {
+        visibility: visible;
+        display:flex;
+        
+    }
+}

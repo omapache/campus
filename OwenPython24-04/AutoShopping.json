@@ -1,0 +1,71 @@
+{
+    "autostore": {
+        "auto": [
+            {
+                "marca": "Chevrolet",
+                "linea": "Beat",
+                "modelo": "2020",
+                "precio": "10000",
+                "equipamiento": [
+                    "Aire Acondicionado",
+                    "Vidrios El\u00e9ctricos 4 Puertas",
+                    "Rines de Lujo",
+                    "Luces Exploradoras"
+                ]
+            },
+            {
+                "marca": "Mazda",
+                "linea": "6",
+                "modelo": "2023",
+                "precio": "12000",
+                "equipamiento": "Full Equipo"
+            },
+            {
+                "marca": "Renault",
+                "linea": "Duster",
+                "modelo": "2022",
+                "precio": "9000",
+                "equipamiento": "Sin Equipamento Adicional"
+            },
+            {
+                "marca": "Chevrolet",
+                "linea": "Onix",
+                "modelo": "2023",
+                "precio": "12000",
+                "equipamiento": [
+                    "Aire Acondicionado",
+                    "Vidrios El\u00e9ctricos 4 Puertas",
+                    "Rines de Lujo",
+                    "Luces Exploradoras",
+                    "Sensores de Reversa",
+                    "C\u00e1mara 360\u00b0"
+                ]
+            },
+            {
+                "marca": "G",
+                "linea": "G",
+                "modelo": "G",
+                "precio": "15000",
+                "equipamiento": "G"
+            },
+            {
+                "marca": "FORD",
+                "linea": "FESTIVA",
+                "modelo": "2022",
+                "precio": "11000",
+                "equipamiento": "FULL EQUIPO"
+            },
+            {
+                "marca": "X",
+                "linea": "X",
+                "modelo": "X",
+                "precio": "X",
+                "equipamiento": [
+                    "RINES DE LUJO",
+                    "AIRE ACONDICIONADO",
+                    "VIDRIOS ELECTRICOS"
+                ]
+            }
+        ]
+    }
+}

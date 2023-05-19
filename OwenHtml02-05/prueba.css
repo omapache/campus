@@ -1,0 +1,9 @@
+.block{ color: blue; }
+.block__element{ color: yellow; }
+.block__element--modifier{ color: rgb(224, 0, 0); }
+
+.item{ color: inherit; }
+.item--modifier{ color: inherit; }
+.item__element{ color: inherit; }
+.item__element--modifier{ color: inherit; }
+.item__another-element{ color: inherit; }

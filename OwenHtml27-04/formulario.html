@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        html { background-color: #e9c8c8; } 
+        form {
+            background-color: aquamarine;
+            padding: 1em;
+            border-radius: 1em;
+            
+
+        }
+        body {
+            margin: 0 auto;
+            width: 400px;
+            max-height: 400;
+            padding: 1em;
+            border-radius: 1em;
+
+        }
+        #titulo {
+            color: rgb(51, 99, 114);
+        }
+        input {
+            border-radius: 1em;
+            border: 1px solid black;
+        }
+        #boton {
+            border: 0.1px solid #000000;
+            font-size: 20px;
+        }
+    </style>
+    <center>
+        <form action="enviarDatos" method="post">
+        <h1 id="titulo">FORMULARIO PARA IR AL CINE CON LOS AMIGOS</h1>
+        <label for="formulario">Nombre y apellidos de la persona</label><br>
+        <input type="text" id="formulario">
+        <hr>
+        <label for="formulario">Ingrese la pelicula deseada</label><br>
+            <select name="formulario">
+                <option value="0">ninguna</option>
+                <option>mario bros</option>
+                <option>jhon wick 5</option>
+                <option>transformers</option>
+                </select>
+        <hr>
+
+        <label for="formulario">A que hora desea ver la peli?</label>
+            <input id="formulario" name="formulario" type="datetime-local"><br>
+            <hr>    
+        <label for="formulario">que comeremos en la peli?</label><br>
+            <input type="checkbox"  value="1">palomitas
+            <input type="checkbox"  value="2">refesco
+            <input type="checkbox"  value="3">hotdog<br>
+        <hr>
+        <label for="formulario">en que vamos a ir a ver la peli ?</label><br>
+            <input id="radio" type="radio"  value="1">carro
+            <input id="radio" type="radio"  value="2">moto
+            <input id="radio" type="radio"  value="3">avion<br>
+        <hr>
+        <button id="boton">enviar</button>
+        </form>
+    </center>
+    </body>
+</html>

@@ -1,0 +1,90 @@
+body{
+    background-color: rgb(223, 223, 223);
+}
+.grid_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.titulo{ 
+    grid-area: uno; 
+    background: rgb(212, 37, 37);
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+.item2{ 
+    grid-area: dos; 
+    background: rgb(212, 101, 17);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.item3{ 
+    grid-area: tres; 
+    background: rgb(143, 215, 218);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.item4{ 
+    grid-area: cuatro; 
+    background: rgb(0, 0, 0);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.item5{ 
+    grid-area: cinco; 
+    background: rgb(143, 215, 218);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.item6{ 
+    grid-area: seis; 
+    background: rgb(212, 101, 17);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.item7{ 
+    grid-area: siete; 
+    background: rgb(0, 0, 0);
+    
+}
+.item8{ 
+    grid-area: ocho; 
+    background: rgb(143, 215, 218);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.item9{ 
+    grid-area: nueve; 
+    background: rgb(0, 0, 0);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}           
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows:100px 100px 100px ;
+    grid-template-areas: 
+    "uno uno dos tres" 
+    "uno uno cuatro cinco"
+    "seis siete ocho nueve";
+    background-color: rgb(186, 188, 188);
+    padding: 0.5em;
+    gap: 4px;
+    
+}
+img{
+    width: 70px;
+    height: 70px;
+}
+.contenido{
+    font-size: 15px;
+}

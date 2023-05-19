@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: arial;
+}
+.nav{
+    background: slateblue;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav_logo{
+    height: 100%;
+    background: white;
+}
+
+.nav_img{
+    height: 100%;
+}
+.nav_link{
+    color :white;
+    text-decoration: none;
+    margin: 5px;
+    font-size: 20px;
+}
+.nav_link--color{
+    color: tomato;
+}

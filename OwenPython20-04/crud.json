@@ -1,0 +1,70 @@
+{
+    "cliente": [
+        {
+            "id": 2,
+            "nombre": "Juan2",
+            "edad": "30",
+            "numdoc": "13456789"
+        },
+        {
+            "id": 2,
+            "nombre": "Juan",
+            "edad": "30",
+            "numdoc": "13456789"
+        },
+        {
+            "id": 2,
+            "nombre": "Juan",
+            "edad": "30",
+            "numdoc": "13456789"
+        },
+        {
+            "id": 2,
+            "nombre": "Juan",
+            "edad": "30",
+            "numdoc": "13456789"
+        },
+        {
+            "id": 5,
+            "nombre": "Juan",
+            "edad": "30",
+            "numdoc": "13456789"
+        },
+        {
+            "id": 6,
+            "nombre": "Juan",
+            "edad": "30",
+            "numdoc": "13456789"
+        },
+        {
+            "id": 7,
+            "nombre": "Juan",
+            "edad": "30",
+            "numdoc": "13456789"
+        },
+        {
+            "id": 8,
+            "nombre": "Juan",
+            "edad": "30",
+            "numdoc": "13456789"
+        },
+        {
+            "id": 9,
+            "nombre": "Juan",
+            "edad": "30",
+            "numdoc": "13456789"
+        },
+        {
+            "id": 10,
+            "nombre": "Juan",
+            "edad": "30",
+            "numdoc": "13456789"
+        },
+        {
+            "id": 11,
+            "nombre": "pepita",
+            "edad": "20",
+            "numdoc": "1123123213"
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+#titulo{
+    color :rgb(170, 213, 221);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+    text-align: center;
+    background-color: rgb(250, 133, 113);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 50px 50px 50px 50px;
+    border: 10px dotted ;
+    border-top: 10px lawngreen hidden;
+    border-bottom: 10px rgb(0, 38, 252) hidden;
+    border-left: 20px rgb(252, 0, 189) dotted;
+    border-right: 20px rgb(252, 164, 0) dotted;
+    }
